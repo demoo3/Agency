@@ -1,13 +1,94 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
 a {
   color: orange;
 }
-
 a:hover {
   color: black;
 }
-/*# sourceMappingURL=style.css.map */
+
+header {
+  padding: 20px 0;
+  background-color: #353333;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+header .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .menu .imgbox {
+  width: 200px;
+}
+header .menu nav {
+  display: block;
+}
+header .menu nav a {
+  cursor: pointer;
+  font-size: 18px;
+  color: #fcf7f7;
+  margin-right: 30px;
+}
+header .menu nav a:hover {
+  color: #f8cf75;
+}
+header .menu .btn {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  header .menu .imgbox {
+    width: 200px;
+  }
+  header .menu nav {
+    display: none;
+  }
+  header .menu .btn {
+    display: flex;
+    border-radius: 7px;
+    border: 1px solid #605e5e;
+    padding: 8px 13px 8px 8px;
+  }
+  header .menu .btn h3 {
+    color: #a5a2a2;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  header .menu .btn .icon {
+    color: #afacac;
+    margin-top: 2px;
+  }
+}
+@media screen and (max-width: 576px) {
+  header .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header .menu .imgbox {
+    width: 250px;
+  }
+  header .menu .btn {
+    padding: 15px 40px 15px 15px;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 280px) {
+  header .menu {
+    display: flex;
+    justify-content: start;
+    flex-flow: column;
+  }
+  header .menu .imgbox {
+    width: 300px;
+  }
+  header .menu .btn {
+    padding: 18px 45px 18px 18px;
+    font-size: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */

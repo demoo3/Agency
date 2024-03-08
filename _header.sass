@@ -1,0 +1,63 @@
+header
+    padding: 20px 0
+    background-color: #353333
+    position: sticky
+    top: 0
+    z-index: 1
+    .menu
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .imgbox
+            width: 200px
+        nav
+            display: block
+            a
+                cursor: pointer
+                font-size: 18px
+                color: #fcf7f7
+                margin-right: 30px
+                &:hover
+                    color: #f8cf75
+        .btn
+            display: none
+
+    @media screen and ( max-width: 992px )
+        .menu
+            .imgbox
+                width: 200px
+            nav
+                display: none
+            .btn
+                display: flex
+                border-radius: 7px
+                border: 1px solid #605e5e
+                padding: 8px 13px 8px 8px
+                h3
+                    color: #a5a2a2
+                    font-weight: 700
+                    font-size: 18px
+                    margin-right: 10px
+                .icon
+                    color: #afacac
+                    margin-top: 2px
+    @media screen and ( max-width: 576px )
+        .menu
+            display: flex
+            justify-content: center
+            align-items: center
+            .imgbox
+                width: 250px
+            .btn
+                padding: 15px 40px 15px 15px
+                font-size: 22px
+    @media screen and ( max-width: 280px )
+        .menu
+            display: flex
+            justify-content: start
+            flex-flow: column
+            .imgbox
+                width: 300px
+            .btn
+                padding: 18px 45px 18px 18px
+                font-size: 30px
