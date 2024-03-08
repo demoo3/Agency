@@ -3,11 +3,15 @@ body {
   font-weight: 500;
 }
 
-a {
-  color: orange;
+.imgbox {
+  overflow: hidden;
 }
-a:hover {
-  color: black;
+.imgbox img {
+  width: 100%;
+}
+
+section {
+  padding: 80px 0;
 }
 
 header {
@@ -16,6 +20,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1;
+  width: 100%;
 }
 header .menu {
   display: flex;
