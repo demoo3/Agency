@@ -379,4 +379,19 @@ header .menu .btn {
 #portfolio .box .textbox h4 {
   font-size: 18px;
   color: #777575;
+}
+@media screen and (max-width: 992px) {
+  #portfolio .box {
+    height: 320px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #portfolio .box {
+    height: 280px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #portfolio .box {
+    height: 370px;
+  }
 }/*# sourceMappingURL=style.css.map */
