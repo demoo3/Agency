@@ -405,27 +405,61 @@ header .menu .btn {
   font-size: 55px;
 }
 #about h3, #about p {
-  font-size: 25px;
+  font-size: 23px;
   color: #777575;
 }
 #about h3 {
   margin: 20px 0 65px;
 }
-#about .box {
-  width: 200px;
+#about .box li {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0 130px;
 }
-#about .box .textbox {
-  width: 400px;
+#about .box li .textbox {
+  width: 430px;
 }
-#about .box h2 {
-  font-size: 35px;
+#about .box li .textbox h2, #about .box li .textbox h4 {
+  font-size: 33px;
   font-weight: 700;
+}
+#about .box li .textbox h4 {
+  margin: 10px 0 20px;
+}
+#about .box li .textbox p {
   line-height: 1.3;
 }
-#about .box p {
-  margin-top: 20px;
-  line-height: 1.3;
-}
-#about .box .imgbox {
+#about .box li .imgbox {
   border-radius: 200px;
+  width: 160px;
+  height: 160px;
+  margin-right: 50px;
+  border: 7px solid #ded8d8;
+}
+#about .box .miniboxxx {
+  display: flex;
+  justify-content: flex-start;
+}
+#about .box .miniboxxx .textbox {
+  width: 430px;
+}
+#about .box .miniboxxx .imgbox {
+  margin-left: 46px;
+}
+#about .box .orangebox {
+  display: flex;
+  justify-content: flex-end;
+  width: 160px;
+  height: 160px;
+  border-radius: 200px;
+  background-color: #f2c13a;
+  border: 7px solid #ded8d8;
+}
+#about .box .orangebox h5 {
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  width: 60px;
+  cursor: text;
+  line-height: 1.2;
 }/*# sourceMappingURL=style.css.map */
