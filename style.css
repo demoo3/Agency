@@ -24,7 +24,7 @@ header .menu {
   align-items: center;
 }
 header .menu .imgbox {
-  width: 200px;
+  width: 160px;
 }
 header .menu nav {
   display: block;
@@ -45,9 +45,6 @@ header .menu .btn {
   header .menu {
     width: 100%;
   }
-  header .menu .imgbox {
-    width: 200px;
-  }
   header .menu nav {
     display: none;
   }
@@ -55,7 +52,7 @@ header .menu .btn {
     display: flex;
     border-radius: 7px;
     border: 1px solid #605e5e;
-    padding: 8px 13px 8px 8px;
+    padding: 7px 13px 7px 11px;
   }
   header .menu .btn h3 {
     color: #a5a2a2;
@@ -68,32 +65,10 @@ header .menu .btn {
     margin-top: 2px;
   }
 }
-@media screen and (max-width: 576px) {
-  header .menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  header .menu .imgbox {
-    width: 250px;
-  }
-  header .menu .btn {
-    padding: 15px 40px 15px 15px;
-    font-size: 22px;
-  }
-}
 @media screen and (max-width: 280px) {
   header .menu {
     display: flex;
-    justify-content: start;
-    flex-flow: column;
-  }
-  header .menu .imgbox {
-    width: 300px;
-  }
-  header .menu .btn {
-    padding: 18px 45px 18px 18px;
-    font-size: 30px;
+    flex-flow: row wrap;
   }
 }
 
@@ -409,7 +384,7 @@ header .menu .btn {
   cursor: text;
 }
 #about h3 {
-  margin: 20px 0 65px;
+  margin: 20px 0 66px;
 }
 #about .lengthbox li {
   display: flex;
@@ -460,9 +435,4 @@ header .menu .btn {
   width: 90px;
   cursor: text;
   line-height: 1.3;
-}
-
-#team {
-  padding: 1200px 0 80px;
-  background-color: #f7f7f7;
 }/*# sourceMappingURL=style.css.map */

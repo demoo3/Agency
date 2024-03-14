@@ -10,7 +10,7 @@ header
         justify-content: space-between
         align-items: center
         .imgbox
-            width: 200px
+            width: 160px
         nav
             display: block
             a
@@ -25,15 +25,13 @@ header
     @media screen and ( max-width: 992px )
         .menu
             width: 100%
-            .imgbox
-                width: 200px
             nav
                 display: none
             .btn
                 display: flex
                 border-radius: 7px
                 border: 1px solid #605e5e
-                padding: 8px 13px 8px 8px
+                padding: 7px 13px 7px 11px
                 h3
                     color: #a5a2a2
                     font-weight: 700
@@ -42,23 +40,8 @@ header
                 .icon
                     color: #afacac
                     margin-top: 2px
-    @media screen and ( max-width: 576px )
-        .menu
-            display: flex
-            justify-content: center
-            align-items: center
-            .imgbox
-                width: 250px
-            .btn
-                padding: 15px 40px 15px 15px
-                font-size: 22px
     @media screen and ( max-width: 280px )
         .menu
             display: flex
-            justify-content: start
-            flex-flow: column
-            .imgbox
-                width: 300px
-            .btn
-                padding: 18px 45px 18px 18px
-                font-size: 30px
+            flex-flow: row wrap
+            
