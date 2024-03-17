@@ -425,7 +425,7 @@ header .menu .btn {
 #about .add {
   display: flex;
   justify-content: center;
-  margin: 40px;
+  margin: 0 40px;
 }
 #about .add .minibox {
   display: flex;
@@ -448,10 +448,16 @@ header .menu .btn {
 }
 @media screen and (max-width: 992px) {
   #about .box {
-    margin: 0 14px;
+    margin: 0 14px 80px;
   }
   #about .box .textbox {
     width: 232px;
+  }
+  #about .box .textbox h2, #about .box .textbox h4 {
+    font-size: 28px;
+  }
+  #about .box .textbox p {
+    font-size: 19px;
   }
   #about .box .imgbox {
     width: 110px;
@@ -465,5 +471,35 @@ header .menu .btn {
   #about .add .minibox h5 {
     font-size: 15px;
     width: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #about .box {
+    margin: 0 0 80px;
+  }
+  #about .box .textbox {
+    width: 380px;
+  }
+  #about .box .imgbox {
+    width: 80px;
+    height: 80px;
+    margin: 0 26px;
+  }
+  #about .add {
+    display: flex;
+    justify-content: start;
+  }
+  #about .add .minibox {
+    width: 80px;
+    height: 80px;
+  }
+  #about .add .minibox h5 {
+    font-size: 12px;
+    width: 40px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #about .box .textbox {
+    width: 400px;
   }
 }/*# sourceMappingURL=style.css.map */
