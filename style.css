@@ -371,41 +371,43 @@ header .menu .btn {
 }
 
 #about {
-  padding: 80px 0;
+  padding: 100px 0;
 }
-#about h1 {
+#about .textbox {
+  margin-bottom: 55px;
+}
+#about .textbox h1 {
+  font-size: 60px;
   font-weight: 700;
-  font-size: 55px;
+  margin-bottom: 10px;
   cursor: text;
 }
-#about h3, #about p {
-  color: #777575;
+#about .textbox h3 {
+  font-size: 20px;
+  color: #828080;
   cursor: text;
-}
-#about h3 {
-  margin: 20px 0 66px;
-  font-size: 22px;
 }
 #about .box {
   display: flex;
   align-items: center;
-  margin: 0px 85px 80px;
+  margin: 0 0 100px 100px;
 }
 #about .box .textbox {
-  width: 355px;
+  width: 400px;
+  margin: 0 20px;
   text-align: end;
 }
 #about .box .textbox h2, #about .box .textbox h4 {
   font-size: 30px;
   font-weight: 700;
+  line-height: 1.3;
   cursor: text;
 }
-#about .box .textbox h4 {
-  margin: 8px 0 15px;
-}
 #about .box .textbox p {
-  line-height: 1.3;
-  font-size: 20px;
+  font-size: 19px;
+  color: #828080;
+  line-height: 1.4;
+  cursor: text;
 }
 #about .box .imgbox {
   border-radius: 200px;
@@ -415,9 +417,8 @@ header .menu .btn {
   margin: 0 34px;
 }
 #about .right {
-  display: flex;
   justify-content: end;
-  margin: 0 90px 80px;
+  margin: 0 100px 100px 0;
 }
 #about .right .textbox {
   text-align: start;
@@ -440,70 +441,83 @@ header .menu .btn {
 #about .story .minibox h2 {
   font-size: 20px;
   color: white;
-  font-weight: 700;
   cursor: text;
+  font-weight: 700;
   line-height: 1.2;
 }
 @media screen and (max-width: 992px) {
   #about .box {
-    margin: 0 14px 80px;
+    margin: 0 0 100px 0;
+    align-items: flex-start;
   }
   #about .box .textbox {
-    width: 232px;
-  }
-  #about .box .textbox h2, #about .box .textbox h4 {
-    font-size: 28px;
-  }
-  #about .box .textbox p {
-    font-size: 19px;
-  }
-  #about .box .imgbox {
-    width: 110px;
-    height: 110px;
-    margin: 0 48px;
-  }
-  #about .add .minibox {
-    width: 110px;
-    height: 110px;
-  }
-  #about .add .minibox h5 {
-    font-size: 15px;
-    width: 50px;
+    width: 190px;
   }
 }
 @media screen and (max-width: 768px) {
   #about .textbox h1 {
-    font-size: 50px;
+    font-size: 55px;
   }
   #about .textbox h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
   #about .box {
-    margin: 0 0 80px;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    margin: 0 0 70px 0;
   }
   #about .box .textbox {
-    width: 380px;
+    width: 400px;
+    text-align: start;
   }
   #about .box .imgbox {
-    width: 80px;
-    height: 80px;
-    margin: 0 26px;
+    width: 140px;
+    height: auto;
+    margin: 0;
   }
-  #about .add {
-    display: flex;
-    justify-content: start;
+  #about .right {
+    margin: 0 0 70px 0;
+    flex-direction: row;
   }
-  #about .add .minibox {
-    width: 80px;
-    height: 80px;
+  #about .right .textbox {
+    text-align: start;
   }
-  #about .add .minibox h5 {
-    font-size: 12px;
-    width: 40px;
+  #about .yellow {
+    justify-content: flex-start;
+  }
+  #about .yellow .story {
+    width: 140px;
+    height: 140px;
+  }
+  #about .yellow .story .minibox {
+    padding: 0 30px;
   }
 }
 @media screen and (max-width: 576px) {
-  #about .box .textbox {
-    width: 400px;
+  #about .textbox h1 {
+    font-size: 50px;
+  }
+  #about .textbox h3 {
+    font-size: 18px;
+  }
+  #about .box .imgbox {
+    width: 140px;
+    height: auto;
+  }
+  #about .box .textbox h2, #about .box .textbox h4 {
+    font-size: 25px;
+  }
+  #about .box .textbox p {
+    font-size: 18px;
+  }
+  #about .yellow .story {
+    width: 100px;
+    height: 100px;
+  }
+  #about .yellow .story .minibox {
+    padding: 0 15px;
+  }
+  #about .yellow .story .minibox h2 {
+    font-size: 18px;
   }
 }/*# sourceMappingURL=style.css.map */
