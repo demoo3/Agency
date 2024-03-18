@@ -422,27 +422,25 @@ header .menu .btn {
 #about .right .textbox {
   text-align: start;
 }
-#about .add {
+#about .yellow {
   display: flex;
   justify-content: center;
-  margin: 0 40px;
 }
-#about .add .minibox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+#about .story {
   width: 160px;
   height: 160px;
   border-radius: 200px;
   background-color: #ffc547;
   border: 7px solid #ded8d8;
 }
-#about .add .minibox h5 {
-  font-size: 25px;
+#about .story .minibox {
+  text-align: center;
+  padding: 0 40px;
+}
+#about .story .minibox h2 {
+  font-size: 20px;
   color: white;
   font-weight: 700;
-  width: 90px;
   cursor: text;
   line-height: 1.2;
 }
@@ -474,6 +472,12 @@ header .menu .btn {
   }
 }
 @media screen and (max-width: 768px) {
+  #about .textbox h1 {
+    font-size: 50px;
+  }
+  #about .textbox h3 {
+    font-size: 20px;
+  }
   #about .box {
     margin: 0 0 80px;
   }
