@@ -10,6 +10,10 @@ body {
   width: 100%;
 }
 
+section {
+  padding: 50px 0;
+}
+
 header {
   padding: 20px 0;
   background-color: #353333;
@@ -519,5 +523,81 @@ header .menu .btn {
   }
   #about .yellow .story .minibox h2 {
     font-size: 18px;
+  }
+}
+
+#team {
+  background-color: rgba(192, 192, 192, 0.1254901961);
+}
+#team .textbox {
+  margin-bottom: 55px;
+}
+#team .textbox h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  cursor: text;
+}
+#team .textbox h3 {
+  font-size: 20px;
+  color: #828080;
+  cursor: text;
+}
+#team .box .imgbox {
+  width: 220px;
+  border-radius: 50%;
+  border: 8px solid rgba(135, 129, 129, 0.1921568627);
+}
+#team .box .textbox {
+  text-align: center;
+  margin: 15px 0;
+}
+#team .box .textbox h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+#team .box .textbox h4 {
+  font-size: 19px;
+  color: #828080;
+}
+#team .box .textbox h2, #team .box .textbox h4 {
+  cursor: text;
+}
+#team .box ul {
+  display: flex;
+  justify-content: center;
+}
+#team .box ul li {
+  margin: 10px;
+}
+#team .box ul li .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #161616;
+  color: white;
+}
+#team .box ul li:hover .icon {
+  background-color: #514f4f;
+  transition: 2s;
+}
+#team .textbox p {
+  font-size: 20px;
+  color: #828080;
+  line-height: 1.4;
+  cursor: text;
+  margin-top: 25px;
+}
+#team .wid {
+  width: 715px;
+}
+@media screen and (max-width: 768px) {
+  #team .textbox p {
+    padding: 0;
   }
 }/*# sourceMappingURL=style.css.map */
