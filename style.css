@@ -112,11 +112,11 @@ header .menu .btn {
 #welcome .box .textbox .btn:hover {
   background-color: #c28d07;
 }
-@media screen and (max-width: 576px) {
-  #welcome .box .textbox h1 {
+@media screen and (max-width: 768px) {
+  #welcome .box .textbox h2 {
     font-size: 35px;
   }
-  #welcome .box .textbox h2 {
+  #welcome .box .textbox h1 {
     font-size: 70px;
   }
 }
