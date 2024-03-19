@@ -327,6 +327,10 @@ header .menu .btn {
   #about .box .textbox {
     width: 190px;
   }
+  #about .box .imgbox {
+    width: 150px;
+    height: 150px;
+  }
 }
 @media screen and (max-width: 768px) {
   #about .textbox h1 {
@@ -345,7 +349,7 @@ header .menu .btn {
     text-align: start;
   }
   #about .box .imgbox {
-    width: 140px;
+    width: 130px;
     height: auto;
     margin: 0;
   }
@@ -360,11 +364,11 @@ header .menu .btn {
     justify-content: flex-start;
   }
   #about .yellow .story {
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
   }
   #about .yellow .story .minibox {
-    padding: 0 30px;
+    padding: 0 16px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -375,7 +379,7 @@ header .menu .btn {
     font-size: 18px;
   }
   #about .box .imgbox {
-    width: 140px;
+    width: 100px;
     height: auto;
   }
   #about .box .textbox h2, #about .box .textbox h4 {
@@ -385,14 +389,14 @@ header .menu .btn {
     font-size: 18px;
   }
   #about .yellow .story {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
   }
   #about .yellow .story .minibox {
     padding: 0 15px;
   }
   #about .yellow .story .minibox h2 {
-    font-size: 18px;
+    font-size: 13px;
   }
 }
 
