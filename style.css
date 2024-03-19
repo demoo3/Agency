@@ -493,6 +493,11 @@ header .menu .btn {
   cursor: text;
   padding: 0 185px;
 }
+@media screen and (max-width: 992px) {
+  #team .textbox p {
+    padding: 0;
+  }
+}
 @media screen and (max-width: 768px) {
   #team .textbox h3 {
     font-size: 22px;
@@ -502,11 +507,6 @@ header .menu .btn {
   }
   #team .box ul {
     margin-bottom: 35px;
-  }
-}
-@media screen and (max-width: 992px) {
-  #team .textbox p {
-    padding: 0;
   }
 }
 
