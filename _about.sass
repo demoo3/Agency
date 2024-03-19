@@ -1,6 +1,6 @@
 #about
     padding: 100px 0
-    .textbox
+    .text-center
         margin-bottom: 55px
         h1
             font-size: 60px
@@ -47,7 +47,7 @@
         width: 160px
         height: 160px
         border-radius: 200px
-        background-color: #ffc547
+        background-color: #ffc800
         border: 7px solid #ded8d8
         .minibox
             text-align: center
@@ -58,6 +58,7 @@
                 cursor: text
                 font-weight: 700
                 line-height: 1.2
+
     @media screen and ( max-width: 992px )
         .box
             margin: 0 0 100px 0
@@ -68,7 +69,7 @@
                 width: 150px
                 height: 150px
     @media screen and ( max-width: 768px )
-        .textbox
+        .text-center
             h1
                 font-size: 55px
             h3
@@ -81,7 +82,7 @@
                 width: 400px
                 text-align: start
             .imgbox
-                width: 130px
+                width: 140px
                 height: auto
                 margin: 0
         .right
@@ -92,12 +93,13 @@
         .yellow
             justify-content: flex-start
             .story
-                width: 120px
-                height: 120px
+                width: 140px
+                height: 140px
                 .minibox
-                    padding: 0 16px
+                    padding: 0 30px
+
     @media screen and ( max-width: 576px )
-        .textbox
+        .text-center
             h1
                 font-size: 50px
             h3
@@ -119,3 +121,12 @@
                     padding: 0 15px
                     h2
                         font-size: 13px
+    @media screen and ( max-width: 310px )
+        .yellow
+            .story
+                width: 50px
+                height: 50px
+                .minibox
+                    padding: 0 5px
+                    h2
+                        font-size: 9px

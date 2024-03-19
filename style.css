@@ -260,16 +260,16 @@ header .menu .btn {
 #about {
   padding: 100px 0;
 }
-#about .textbox {
+#about .text-center {
   margin-bottom: 55px;
 }
-#about .textbox h1 {
+#about .text-center h1 {
   font-size: 60px;
   font-weight: 700;
   margin-bottom: 10px;
   cursor: text;
 }
-#about .textbox h3 {
+#about .text-center h3 {
   font-size: 20px;
   color: #828080;
   cursor: text;
@@ -318,7 +318,7 @@ header .menu .btn {
   width: 160px;
   height: 160px;
   border-radius: 200px;
-  background-color: #ffc547;
+  background-color: #ffc800;
   border: 7px solid #ded8d8;
 }
 #about .story .minibox {
@@ -346,10 +346,10 @@ header .menu .btn {
   }
 }
 @media screen and (max-width: 768px) {
-  #about .textbox h1 {
+  #about .text-center h1 {
     font-size: 55px;
   }
-  #about .textbox h3 {
+  #about .text-center h3 {
     font-size: 18px;
   }
   #about .box {
@@ -362,7 +362,7 @@ header .menu .btn {
     text-align: start;
   }
   #about .box .imgbox {
-    width: 130px;
+    width: 140px;
     height: auto;
     margin: 0;
   }
@@ -377,18 +377,18 @@ header .menu .btn {
     justify-content: flex-start;
   }
   #about .yellow .story {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
   }
   #about .yellow .story .minibox {
-    padding: 0 16px;
+    padding: 0 30px;
   }
 }
 @media screen and (max-width: 576px) {
-  #about .textbox h1 {
+  #about .text-center h1 {
     font-size: 50px;
   }
-  #about .textbox h3 {
+  #about .text-center h3 {
     font-size: 18px;
   }
   #about .box .imgbox {
@@ -410,6 +410,18 @@ header .menu .btn {
   }
   #about .yellow .story .minibox h2 {
     font-size: 13px;
+  }
+}
+@media screen and (max-width: 310px) {
+  #about .yellow .story {
+    width: 50px;
+    height: 50px;
+  }
+  #about .yellow .story .minibox {
+    padding: 0 5px;
+  }
+  #about .yellow .story .minibox h2 {
+    font-size: 9px;
   }
 }
 
