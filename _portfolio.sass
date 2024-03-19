@@ -1,56 +1,61 @@
 #portfolio
-    padding: 80px 0
-    background-color: #f7f7f7
-    width: 100%
+    background-color: #acadaf16
     .textbox
+        padding: 40px 0 55px
+        text-align: center
         h1
+            font-size: 60px
             font-weight: 700
-            font-size: 55px
+            margin-bottom: 10px
+            cursor: text
         h3
             font-size: 20px
-            color: #777575
-            margin: 20px 0 65px
+            color: #828080
+            cursor: text
+        h2
+            font-size: 29px
+            font-weight: 700
+            line-height: 1.2
+            margin-top: 13px
+        h4
+            font-size: 20px
+            color: #838489
     .box
+        margin-bottom: 30px
         background-color: #ffff
-        width: 360px
-        height: 380px
-        margin: 0 0 20px
+        padding-bottom: 20px
+        .textbox
+            padding: 0
         .imgbox
             position: relative
-            .minibox
+            .icon
+                width: 100%
+                display: flex
+                justify-content: center
+                align-items: center
+                font-size: 60px
+                color: #ffff
                 position: absolute
                 top: 0
-                left: 0
-                width: 360px
-                height: 270px
+                bottom: 0
                 opacity: 0
-                h5
-                    color: #ffff
-                    text-align: center
-                    line-height: 1.8
-                    font-size: 130px
-                    font-weight: 300
                 &:hover
-                    width: 100%
-                    height: 100%
-                    background-color: #f2c13a
-                    opacity: 1
-                    transition: 1s
-        .textbox
-            h2
-                font-size: 25px
-                font-weight: 700
-                margin: 25px 0 10px
-            h4
-                font-size: 18px
-                color: #777575
+                    background-color: #ffbb00
+                    opacity: 0.9
+                    transition: 0.5s
+                    cursor: pointer
     @media screen and ( max-width: 992px )
         .box
-            height: 320px
-    @media screen and ( max-width: 768px )
-        .box
-            height: 280px
+            .imgbox
+                width: auto
     @media screen and ( max-width: 576px )
+        .textbox
+            h1
+                font-size: 40px
+            h3
+                font-size: 18px
+                margin-bottom: 35px
         .box
-            height: 370px
-        
+            margin-bottom: 50px
+            .imgbox
+                width: auto
